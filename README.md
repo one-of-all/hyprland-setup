@@ -124,8 +124,9 @@ hyprland-setap/
 │           ├── colors.rasi
 │           └── nordic.rasi
 ├── screenshots
-│   ├── 2026-06-30_08-53-42.png
-│   └── 2026-06-30_08-57-37.png
+│   ├── desktop.png
+│   ├── rofi_launcher.png
+│   └── workspaces.png
 ├── wallpapers
 │   └── wallpaper.jpg
 ├── wallpaper_setup.sh
