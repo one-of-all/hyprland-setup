@@ -73,7 +73,7 @@ All configuration files are stored in this repository and deployed automatically
 
 <div align="center">
   <img src="screenshots/workspaces.png" alt="Hyprland Workspaces" width="800"/>
-  <p><strong>Figure 9:</strong> Dynamic tiling and workspace overview</p>
+  <p><strong>Figure 3:</strong> Dynamic tiling and workspace overview</p>
 </div>
 
 ---
