@@ -64,35 +64,12 @@ All configuration files are stored in this repository and deployed automatically
   <p><strong>Figure 2:</strong> Rofi application launcher in action</p>
 </div>
 
-<div align="center">
-  <img src="screenshots/waybar.png" alt="Waybar and Hyprland" width="800"/>
-  <p><strong>Figure 3:</strong> Waybar with system tray, workspaces, and clock</p>
-</div>
-
-<div align="center">
-  <img src="screenshots/kitty.png" alt="Kitty Terminal" width="700"/>
-  <p><strong>Figure 4:</strong> Kitty with Zsh and Powerlevel10k prompt</p>
-</div>
-
-<div align="center">
-  <img src="screenshots/powermenu.png" alt="Rofi Powermenu" width="400"/>
-  <p><strong>Figure 5:</strong> Rofi powermenu for logout, reboot, and shutdown</p>
-</div>
-
-<div align="center">
-  <img src="screenshots/wallpaper_selector.png" alt="Rofi Wallpaper Selector" width="500"/>
-  <p><strong>Figure 6:</strong> Rofi wallpaper selector – pick any image from your wallpaper directory</p>
-</div>
-
+<!--
 <div align="center">
   <img src="screenshots/lightdm.png" alt="LightDM Login" width="600"/>
   <p><strong>Figure 7:</strong> Custom LightDM greeter with wallpaper background</p>
 </div>
-
-<div align="center">
-  <img src="screenshots/nemo.png" alt="Nemo File Manager" width="700"/>
-  <p><strong>Figure 8:</strong> Nemo file manager with a clean interface</p>
-</div>
+-->
 
 <div align="center">
   <img src="screenshots/workspaces.png" alt="Hyprland Workspaces" width="800"/>
