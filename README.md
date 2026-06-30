@@ -110,7 +110,7 @@ Watch a full walkthrough of the system in action, including Hyprland navigation,
   Your browser does not support the video tag.
 </video>
 
-<!-- You can also view the demo on [YouTube](https://youtu.be/your-video-link). -->
+<!-- You can also view the demo on [YouTube](https://youtu.be/video-link). -->
 
 ---
 
@@ -118,29 +118,47 @@ Watch a full walkthrough of the system in action, including Hyprland navigation,
 
 ```
 hyprland-setap/
-├── hypr/                 # Hyprland configuration files
-│   ├── hyprland.conf
-│   ├── hyprlock.conf
-│   └── hyprpaper.conf
-├── kitty/                # Kitty terminal config
-│   └── kitty.conf
-├── lightdm/              # LightDM config (greeter and display manager)
-│   └── lightdm.conf
-├── rofi/                 # Rofi themes and scripts (from anhsirk0/rofi-config)
-│   ├── applaunch/
-│   ├── colors/
-│   ├── emoji/
-│   ├── powermenu/
-│   ├── wallpaper/        # Custom wallpaper selector using Rofi
-│   │   ├── config.rasi
-│   │   └── wallpaper.sh
-│   ├── config.rasi
-│   ├── change-theme.pl
-│   └── rofi-theme-selector.sh
-├── wallpapers/           # Default wallpapers (copy to user directory)
-│   └── wallpaper.jpg
-├── wallpaper_setup.sh    # Script to set wallpapers and update Hyprpaper
-├── install.sh            # One‑click installation script
+├── cava
+│   └── config
+├── hypr
+│   ├── hyprland.conf
+│   ├── hyprlock.conf
+│   └── hyprpaper.conf
+├── kitty
+│   └── kitty.conf
+├── lightdm
+│   └── lightdm.conf
+├── rofi
+│   ├── colors
+│   │   └── nord.rasi
+│   ├── launchers
+│   │   ├── launcher.sh
+│   │   ├── shared
+│   │   │   ├── colors.rasi
+│   │   │   └── fonts.rasi
+│   │   └── style.rasi
+│   └── powermenu
+│       ├── powermenu.sh
+│       ├── shared
+│       │   ├── colors.rasi
+│       │   └── fonts.rasi
+│       ├── style.rasi
+│       └── styles
+│           ├── colors.rasi
+│           └── nordic.rasi
+├── screenshots
+│   ├── 2026-06-30_08-53-42.png
+│   └── 2026-06-30_08-57-37.png
+├── wallpapers
+│   └── wallpaper.jpg
+├── wallpaper_setup.sh
+├── waybar
+│   ├── clock.sh
+│   ├── config.jsonc
+│   ├── style.css
+│   └── window.sh
+├── install.sh
+├── LICENSE
 └── README.md
 ```
 
@@ -216,21 +234,3 @@ This setup emphasises security without sacrificing usability:
 - **Minimal attack surface** – The system runs only essential services. LightDM is lightweight and does not expose unnecessary network ports.
 - **Zsh hardening** – The shell is configured with safe defaults and no insecure plugins.
 - **User separation** – The installer runs as root but uses `sudo -u` for user‑specific tasks, avoiding privilege escalation issues.
-
----
-
-## Credits & Acknowledgments
-
-This project would not be possible without the amazing work of the open‑source community:
-
-- **Hyprland** – the incredible Wayland compositor – [hyprland.org](https://hyprland.org/)
-- **Kitty** – the terminal that makes everything look good – [sw.kovidgoyal.net/kitty/](https://sw.kovidgoyal.net/kitty/)
-- **Waybar** – the bar that ties it all together – [github.com/Alexays/Waybar](https://github.com/Alexays/Waybar)  
-  *Waybar theme adapted from* [minimal-waybar-themes](https://github.com/atif-1402/minimal-waybar-themes/)
-- **Rofi** – the launcher that keeps you fast – [github.com/davatorium/rofi](https://github.com/davatorium/rofi)  
-  *Rofi configuration based on* [rofi-config](https://github.com/anhsirk0/rofi-config)
-- **Zim** – the Zsh framework that stays out of your way – [zimfw.sh](https://zimfw.sh/)
-- **Powerlevel10k** – the prompt that makes you smile – [github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- **Firejail** – for security without hassle – [firejail.wordpress.com](https://firejail.wordpress.com/)
-- **Proton** – bringing Windows apps to Linux – [github.com/ValveSoftware/Proton](https://github.com/ValveSoftware/Proton)
-
